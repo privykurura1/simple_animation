@@ -3,8 +3,8 @@ import random
 
 pygame.init()
 
-BLACK = (0, 0, 0)
-WHITE = (255, 255, 255)
+BLACK = [0, 0, 0]
+WHITE = [255, 255, 255]
 
 # Set the height and withd of the screen
 
@@ -52,7 +52,7 @@ while not done:
             
     # Go ahead and update the screen with what we have drawn
     pygame.display.flip()
-    clock.tick(20)
+    clock.tick(100)
     
 pygame.quit()
             
